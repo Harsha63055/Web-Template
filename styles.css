@@ -1,0 +1,64 @@
+body{
+  background-color: thistle;
+  margin: 0;
+  padding: 0px;
+}
+#header {
+  border: 2px solid ;
+  text-align: center;
+  padding:10px ;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+ul div{
+  border: 2px solid none;
+}
+.home:hover{
+  background-color: white;
+}
+.menu:hover{
+  background-color: white;
+}
+.about:hover{
+  background-color: white;
+}
+.cont:hover{
+  background-color: white;
+}
+.b1{
+  border: 2px solid none;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+.p1{
+  font-size: 20px;
+  color: black;
+  background-image: url(./assects/images/images.jpg);
+  border: 2px solid none;
+}
+.b2{
+  border: 2px solid black;
+padding: 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.b3{
+  border: 2px solid black;
+}
+/* .b2:hover div {
+  transition: 0.2s;
+  transform: scale(1.0.1);
+} */
